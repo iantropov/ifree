@@ -1,0 +1,70 @@
+[
+	{
+		"id"			: "ifree-click-tower",
+		"objectId"		: "ifree-world-tower",
+		"targetSide"	: "right top",
+		"screenConfig"	: 	{
+			"type"			: "group",
+			"groupIds"		: ["towerGroup"],
+			"titleText"		: "About us"
+		},
+		"offsetLeft"	: 0,
+		"offsetTop"		: 40
+	},
+	{
+		"id"			: "ifree-click-people",
+		"objectId"		: "ifree-people-near-lake",
+		"targetSide"	: "left top",
+		"screenConfig"	: 	{
+			"type"			: "group",
+			"groupIds"		: ["peopleGroup"],
+			"titleText"		: "Developers"
+		}
+	},
+	{
+		"id"			: "ifree-click-products",
+		"objectId"		: "ifree-station-products",
+		"targetSide"	: "right top",
+		"screenConfig"	: 	{
+			"type"			: "group",
+			"groupIds"		: ["stationProductsGroup1", "stationProductsGroup2"],
+			"titleText"		: "Products"
+		},
+		"offsetLeft"	: 0,
+		"offsetTop"		: 52
+	},
+	{
+		"id"			: "ifree-click-b2b",
+		"objectId"		: "ifree-station-b2b",
+		"targetSide"	: "left bottom",
+		"screenConfig"	: 	{
+			"type"			: "group",
+			"groupIds"		: ["stationB2bGroup"],
+			"titleText"		: "B2bSolutions"
+		},
+		"offsetLeft"	: 30,
+		"offsetTop"		: 3
+	},
+	{
+		"id"				: "ifree-click-development",
+		"objectId"			: "ifree-station-development",
+		"targetSide"		: "left top",
+		"screenConfig"		: {
+			"type"			: "single",
+			"polaroidId"	: "development",
+			"titleText"		: "Development"
+		},
+		"offsetLeft"	: 10,
+		"offsetTop"		: 10
+	},
+	{
+		"id"				: "ifree-click-train",
+		"objectId"			: "ifree-train-click-element",
+		"targetSide"		: "left top",
+		"screenConfig"		: {
+			"type"			: "group",
+			"groupIds"		: ["trainGroup"],
+			"titleText"		: "Platforms"
+		}
+	}
+]

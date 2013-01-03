@@ -1,0 +1,349 @@
+[
+	{
+		"id"			: "ifree-top-region",
+		"size"			: [0, 0],
+		"coordinates"	: [0, 0],
+		"type"			: "object"
+	},
+	{
+		"id"			: "ifree-bottom-region",
+		"size"			: [0, 0],
+		"coordinates"	: [0, 0],
+		"type"			: "object"
+	},
+	{
+		"id"			: "ifree-center-region",
+		"imageId"		: "background",
+		"size"			: [1, 830],
+		"coordinates"	: [0, 0],
+		"type"			: "static"
+	},
+	{
+		"id"			: "ifree-stars",
+		"size"			: [830, 261],
+		"coordinates"	: [0, 0],
+		"type"			: "static",
+		"imageId"		: "stars"
+	},
+	{
+		"id"			: "ifree-solar-system",
+		"size"			: [830, 830],
+		"coordinates"	: [0, 0],
+		"type"			: "object",
+		"children"		: [
+			{
+				"id"			: "ifree-scroll-anchor",
+				"size"			: [1, 1],
+				"coordinates"	: [0, 0],
+				"type"			: "object"
+			},
+			{
+				"id"				: "ifree-clouds",
+				"imageId"			: "clouds",
+				"coordinates"		: [107, 40],
+				"size"				: [637, 306],
+				"type"				: "static"
+			},
+			{
+				"id"			: "ifree-earth",
+				"imageId"		: "world-earth",
+				"coordinates"	: [179, 160],
+				"size"			: [487, 584],
+				"type"			: "static"
+			},
+			{
+				"id"			: "ifree-earth-container",
+				"coordinates"	: [179, 160],
+				"size"			: [487, 584],
+				"type"			: "object",
+				"children"		: [
+					{
+						"id"				: "ifree-world-pagoda",
+						"imageId"			: "world-pagoda",
+						"coordinates"		: [397, 108],
+						"size"				: [90, 105],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-train-road",
+						"coordinates"		: [98, 104],
+						"size"				: [0, 0],
+						"type"				: "object"
+					},
+					{
+						"id"				: "ifree-world-train",
+						"imageId"			: "world-train",
+						"coordinates"		: [98, 104],
+						"size"				: [303, 303],
+						"type"				: "train",
+						"trainMotionDelay"	: 50,
+						"angleStep"			: 2
+					},
+					{
+						"id"				: "ifree-train-click-element",
+						"coordinates"		: [0, 0],
+						"size"				: [10, 10],
+						"type"				: "object"
+					},
+					{
+						"id"				: "ifree-world-tower",
+						"imageId"			: "world-tower",
+						"coordinates"		: [181, -92],
+						"size"				: [139, 283],
+						"type"				: "static",
+						"children"			: [
+							{
+								"id"				: "ifree-world-logo",
+								"imageId"			: "world-logo",
+								"coordinates"		: [13, -7],
+								"size"				: [154, 104],
+								"type"				: "animated",
+								"animationInterval"	: 300
+							}
+						]
+					},
+					{
+						"id"				: "ifree-people-near-lake",
+						"imageId"			: "people-near-lake",
+						"coordinates"		: [183, 183],
+						"size"				: [72, 36],
+						"type"				: "animated",
+						"animationInterval" : 200
+					},
+					{
+						"id"				: "ifree-wood-near-lake",
+						"imageId"			: "wood-near-lake",
+						"coordinates"		: [243, 177],
+						"size"				: [34, 37],
+						"type"				: "animated",
+						"animationInterval" : 500
+					},
+					{
+						"id"				: "ifree-world-umbrella",
+						"imageId"			: "world-umbrella",
+						"coordinates"		: [178, 152],
+						"size"				: [45, 45],
+						"type"				: "animated",
+						"animationInterval" : 500
+					},
+					{
+						"id"				: "ifree-station-products",
+						"imageId"			: "station-products",
+						"coordinates"		: [414, 216],
+						"size"				: [74, 119],
+						"type"				: "station",
+						"stationAngle"		: 148,
+						"children"			: [
+							{
+								"id"				: "ifree-station-products-input",
+								"imageId"			: "station-products-input",
+								"coordinates"		: [-20, 12],
+								"size"				: [57, 74],
+								"type"				: "station-input",
+								"animationInterval" : 500
+							}
+						]
+					},
+					{			
+						"id"				: "ifree-station-b2b",
+						"imageId"			: "station-b2b",
+						"coordinates"		: [203, 420],
+						"size"				: [105, 67],
+						"type"				: "station",
+						"stationAngle"		: 234,
+						"children"			: [
+							{
+								"id"				: "ifree-station-b2b-input",
+								"imageId"			: "station-b2b-input",
+								"coordinates"		: [16, -21],
+								"size"				: [65, 42],
+								"type"				: "station-input",
+								"animationInterval" : 500
+							}
+						]
+					},			
+					{			
+						"id"				: "ifree-station-development",
+						"imageId"			: "station-development",
+						"coordinates"		: [13, 208],
+						"size"				: [72, 134],
+						"type"				: "station",
+						"stationAngle"		: 322,
+						"children"			: [
+							{
+								"id"				: "ifree-station-development-input",
+								"imageId"			: "station-development-input",
+								"coordinates"		: [38, 13],
+								"size"				: [57, 74],
+								"type"				: "station-input",
+								"animationInterval" : 500
+							}
+						]
+					},
+					{
+						"id"				: "ifree-wood-near-pagoda",
+						"imageId"			: "wood-near-pagoda",
+						"coordinates"		: [438, 155],
+						"size"				: [90, 86],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-people-near-pagoda",
+						"imageId"			: "people-near-pagoda",
+						"coordinates"		: [353, 91],
+						"size"				: [54, 40],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-world-lake-highlight",
+						"imageId"			: "world-lake-highlight",
+						"coordinates"		: [228, 222],
+						"size"				: [61, 18],
+						"type"				: "animated",
+						"animationInterval" : 500
+					},
+					{
+						"id"				: "ifree-world-cath",
+						"imageId"			: "world-cath",
+						"coordinates"		: [36, 70],
+						"size"				: [87, 98],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-wood-near-cath",
+						"imageId"			: "wood-near-cath",
+						"coordinates"		: [97, 79],
+						"size"				: [32, 40],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-people-near-cath",
+						"imageId"			: "people-near-cath",
+						"coordinates"		: [77, 115],
+						"size"				: [42, 40],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-world-statue",
+						"imageId"			: "world-statue",
+						"coordinates"		: [-2, 421],
+						"size"				: [116, 114],
+						"type"				: "static"
+					},
+					{
+						"id"				: "ifree-wood-near-statue",
+						"imageId"			: "wood-near-statue",
+						"coordinates"		: [33, 404],
+						"size"				: [100, 90],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-people-near-statue",
+						"imageId"			: "people-near-statue",
+						"coordinates"		: [66, 382],
+						"size"				: [77, 77],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-world-theater",
+						"imageId"			: "world-theater",
+						"coordinates"		: [417, 363],
+						"size"				: [67, 74],
+						"type"				: "static"
+					},
+					{
+						"id"				: "ifree-people-near-theater",
+						"imageId"			: "people-near-theater",
+						"coordinates"		: [388, 349],
+						"size"				: [86, 69],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-world-city",
+						"imageId"			: "world-city",
+						"coordinates"		: [192, 482],
+						"size"				: [259, 155],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-wood-near-city",
+						"imageId"			: "wood-near-city",
+						"coordinates"		: [342, 487],
+						"size"				: [34, 34],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-people-near-city",
+						"imageId"			: "people-near-city",
+						"coordinates"		: [289, 475],
+						"size"				: [92, 45],
+						"type"				: "animated",
+						"animationInterval" : 300
+					},
+					{
+						"id"				: "ifree-world-tree",
+						"imageId"			: "world-tree",
+						"coordinates"		: [336, 156],
+						"size"				: [34, 51],
+						"type"				: "static"
+					}
+				]
+			},
+			{
+				"id"				: "ifree-balloon",
+				"imageId"			: "balloon",
+				"coordinates"		: [20, 460],
+				"size"				: [77, 104],
+				"type"				: "static"
+			},
+			{
+				"id"				: "ifree-plane",
+				"imageId"			: "plane",
+				"coordinates"		: [62, 68],
+				"size"				: [230, 35],
+				"type"				: "animated",
+				"animationInterval" : 300
+			},
+			{
+				"id"				: "ifree-birds",
+				"imageId"			: "birds",
+				"coordinates"		: [251, 682],
+				"size"				: [44, 14],
+				"type"				: "animated",
+				"animationInterval" : 300
+			},
+			{
+				"id"				: "ifree-lines",
+				"imageId"			: "lines",
+				"coordinates"		: [102, 97],
+				"size"				: [660, 663],
+				"type"				: "static"
+			}
+		]
+	},
+	{
+		"id"				: "ifree-sun",
+		"imageId"			: "sun",
+		"coordinates"		: [300, 0],
+		"size"				: [181, 188],
+		"type"				: "static"
+	},
+	{
+		"id"				: "ifree-moon",
+		"imageId"			: "moon",
+		"coordinates"		: [0, 300],
+		"size"				: [164, 168],
+		"type"				: "static"
+	}
+]

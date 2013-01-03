@@ -1,0 +1,177 @@
+[
+	{
+		"id"				: "empty",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "developers",
+		"text"				: "200 Developers in house and 34 companies outsourcing partners.",
+		"caption"			: "Developers",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "hr-brand",
+		"text"				: "HR Brand of the year 2009-2011.",
+		"caption"			: "HR Brand",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "android",
+		"caption"			: "Android",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "bada",
+		"caption"			: "Bada",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "ios",
+		"caption"			: "iOS",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "java",
+		"caption"			: "Java",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "symbian",
+		"caption"			: "Symbian",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "webos",
+		"caption"			: "WEB OS",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "allover",
+		"text"				: "In business since 2001, internationally since 2005.  Headquartered in St. Petersburg, Russia, i-Free also has offices in Moscow, Mumbai (India), Sao Paolo (Brazil), Beijing (China), Kyiv (Ukraine), Almaty (Kazakhstan), Belarus (Minsk), Turkey (Istanbul).",
+		"caption"			: "All over the world",
+		"bigFontSize"		: 120,
+		"smallFontSize"		: 75,
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "partners",
+		"text"				: "i-Free partners with the leading mobile operators globally, with international mobile equipment vendors, banks, transnational brands, major media groups, publishers and online resources. In top-3 ratings among the leading operators.",
+		"caption"			: "Global partners",
+		"bigFontSize"		: 120,
+		"smallFontSize"		: 80,
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "employees",
+		"text"				: "400 employees (+60-70 every year).",
+		"caption"			: "Employees",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "rdteam",
+		"text"				: "Strong R&D team brings the latest technologies into our products: NFC, LBS, Augmented Reality.",
+		"caption"			: "R&D team",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "development",
+		"text"				: "i-Free has years of experience in developing mobile products. All of the applications we`ve developed were designed to fit the specific requirements and objectives of our customers and in many senses are truly unique. We are using our international experience in products development and launching, ready to provide our ideas and resources for the partner in order to elaborate a product together or doing it independently, providing 100% IP to the partner. We have 180 developers in house and 34 companies outsource partners which insures in time and high quality development of games and applications.  i-free possesses 100% IP on all its own products. It means that we can provide co-branding of our products as well.",
+		"caption"			: "Development",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "sns",
+		"text"				: "Do you have customers and users that you want to tie together and make them communicate with each other? We have a large experience, since 2005, in creating social networks in different countries. Let us make your clients, users and their friends socialize on a daily basis!We are making people participate in everyday life of the community, inspiring them to play, chat and buy the virtual goods.",
+		"caption"			: "SNS",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "monetization",
+		"text"				: "Monetization is an integral part of every service. We are developing products and applications in the frames of community services and provide cross products solutions that ensure monetization of the project.",
+		"caption"			: "Monetization",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "galaxy",
+		"caption"			: "Galaxy shooter",
+		"bigFontSize"		: 120,
+		"smallFontSize"		: 80,
+		"singleScreenType"	: "comingsoon"
+	},
+	{
+		"id"				: "thanks",
+		"caption"			: "Thanks God, it's Friday",
+		"bigFontSize"		: 100,
+		"smallFontSize"		: 70,
+		"singleScreenType"	: "comingsoon"
+	},
+	{
+		"id"				: "jail",
+		"caption"			: "Jail escape",
+		"singleScreenType"	: "tryit"
+	},
+	{
+		"id"				: "industries",
+		"text"				: "i-Free provides services for a broad spectrum of industries and markets. We develop and deliver cutting-edge solutions for the financial markets, mobile and e-commerce, mobile content services, the FMCG market, TV channels, media and other sectors.",
+		"caption"			: "Different industries",
+		"bigFontSize"		: 110,
+		"smallFontSize"		: 75,
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "countries",
+		"text"				: "Products and Services are available in 83 countries. Serves 60 million individual users.",
+		"caption"			: "83 countries",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "portals",
+		"text"				: "We would like to offer innovative B2B services for our partners. One of our services where we have obtained a profound knowledge and experience is creation, elaboration and support of various in its sense and functionality portals. </br> i-Free performs a multifaceted cooperation with mobile operators, mobile vendors and content aggregators  for creation and promotion of various products. I-Free creates community-portals of the new generation, developing and implementing cooperative marketing actions and promo projects at operators' and vendors` portals and producing the up-to-date content for operators' platforms.</br>We are providing not only development but the whole spectrum of services. We are experts in building social networks, providing all the necessary content and bringing up the new products which are uniting the customers of the company-partner. Let us provide your customers the service that they were dreaming about.</br>We are making the mobile as the main access point to any kind of entertainment.</br>As a dedicated B2B partner, we provide you at the same time with the right combination of standardized scalable products and customer-oriented adaptation services, specific for your business model.",
+		"caption"			: "Portals",
+		"singleScreenType"	: "single"
+	},
+	{
+		"id"				: "billing",
+		"caption"			: "Billing SDK",
+		"singleScreenType"	: "single",
+		"text"				: "Now you can switch on billing in different countries easily using our Billing SDK. Just Contact us for more information."
+	},
+	{
+		"id"				: "mogames",
+		"caption"			: "SNS:MOGames",
+		"singleScreenType"	: "tryit"
+	},
+	{
+		"id"				: "flinter",
+		"caption"			: "MMO RPG:Flinter 3",
+		"bigFontSize"		: 115,
+		"smallFontSize"		: 75,
+		"singleScreenType"	: "tryit"
+	},
+	{
+		"id"				: "catocal",
+		"caption"			: "Catocalipsys",
+		"singleScreenType"	: "comingsoon"
+	},
+	{
+		"id"				: "smartive",
+		"caption"			: "Applications: Smartive",
+		"bigFontSize"		: 100,
+		"smallFontSize"		: 70,
+		"singleScreenType"	: "tryit",
+		"downloadUri"		: "https://market.android.com/details?id=com.ifree.mticketing&feature=search_result&hl=en"
+	},
+	{
+		"id"				: "warspear",
+		"caption"			: "War Spear",
+		"singleScreenType"	: "tryit",
+		"downloadUri"		: "https://market.android.com/details?id=com.aigrind.warspear&feature=search_result"
+	},
+	{
+		"id"				: "pocket",
+		"caption"			: "Pocket Blonde",
+		"singleScreenType"	: "tryit",
+		"smallFontSize"		: 95,
+		"downloadUri"		: "https://market.android.com/details?id=com.ifree.massistant&feature=more_from_developer"
+	}
+]

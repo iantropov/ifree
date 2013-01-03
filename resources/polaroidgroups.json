@@ -1,0 +1,59 @@
+[
+	{
+		"id"	: "towerGroup",
+		"items"	: [
+			"allover",
+			"industries",
+			"partners",
+			"employees",
+			"countries",
+			"rdteam"
+		]
+	},
+	{
+		"id"	: "trainGroup",
+		"items"	: [
+			"bada",
+			"android",
+			"ios",
+			"symbian",
+			"webos",
+			"java"
+		]
+	},
+	{
+		"id"	: "peopleGroup",
+		"items"	: [
+			"developers",
+			"hr-brand"
+		]
+	},
+	{
+		"id"	: "stationProductsGroup1",
+		"items"	: [
+			"mogames",
+			"flinter",
+			"galaxy",
+			"thanks",
+			"jail",
+			"catocal"
+		]
+	},
+	{
+		"id"	: "stationProductsGroup2",
+		"items"	: [
+			"smartive",
+			"warspear",
+			"pocket"
+		]
+	},
+	{
+		"id"	: "stationB2bGroup",
+		"items"	: [
+			"sns",
+			"monetization",
+			"portals",
+			"billing"
+		]
+	}
+]

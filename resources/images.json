@@ -1,0 +1,739 @@
+[
+	{
+		"id"			: "world-pagoda",
+		"path"			: "world/world-pagoda",
+		"type"			: "animated",
+		"format"		: "png",
+		"frameCount"	: 4 
+	},
+	{
+		"id"			: "people-near-lake",
+		"path"			: "people/people-near-lake",
+		"type"			: "animated",
+		"format"		: "png",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "world-earth",
+		"path"			: "world/world-earth",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "wood-near-lake",
+		"path"			: "wood/wood-near-lake",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "world-umbrella",
+		"path"			: "world/world-umbrella",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 3
+	},
+	{
+		"id"			: "wood-near-pagoda",
+		"path"			: "wood/wood-near-pagoda",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "people-near-pagoda",
+		"path"			: "people/people-near-pagoda",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "world-lake-highlight",
+		"path"			: "world/world-lake-highlight",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 2		
+	},
+	{
+		"id"			: "world-cath",
+		"path"			: "world/world-cath",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 4		
+	},
+	{
+		"id"			: "wood-near-cath",
+		"path"			: "wood/wood-near-cath",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 3		
+	},
+	{
+		"id"			: "people-near-cath",
+		"path"			: "people/people-near-cath",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6		
+	},
+	{
+		"id"			: "world-statue",
+		"path"			: "world/world-statue",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "people-near-statue",
+		"path"			: "people/people-near-statue",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 2		
+	},
+	{
+		"id"			: "wood-near-statue",
+		"path"			: "wood/wood-near-statue",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 4
+	},
+	{
+		"id"			: "world-theater",
+		"path"			: "world/world-theater",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "people-near-theater",
+		"path"			: "people/people-near-theater",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6		
+	},
+	{
+		"id"			: "world-city",
+		"path"			: "world/world-city",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 8
+	},
+	{
+		"id"			: "wood-near-city",
+		"path"			: "wood/wood-near-city",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 3
+	},
+	{
+		"id"			: "people-near-city",
+		"path"			: "people/people-near-city",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "moon",
+		"path"			: "moon",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "sun",
+		"path"			: "sun",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "balloon",
+		"path"			: "balloon",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "plane",
+		"path"			: "plane",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "birds",
+		"path"			: "birds",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "lines",
+		"path"			: "lines",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "world-tower",
+		"path"			: "world/world-tower",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "world-logo",
+		"path"			: "world/world-logo",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "world-tree",
+		"path"			: "world/world-tree",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "station-products-input",
+		"path"			: "station/station-products-input",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "station-b2b-input",
+		"path"			: "station/station-b2b-input",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "station-development-input",
+		"path"			: "station/station-development-input",
+		"format"		: "png",
+		"type"			: "animated",
+		"frameCount"	: 6
+	},
+	{
+		"id"			: "world-train",
+		"path"			: "world/world-train",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "stars",
+		"path"			: "stars",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "clouds",
+		"path"			: "clouds",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "background",
+		"path"			: "background",
+		"format"		: "png",
+		"type"			: "static",
+		"group"			: "first"
+	},
+	{
+		"id"			: "polaroid-big-background",
+		"path"			: "polaroid/polaroid-big-background",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-small-background",
+		"path"			: "polaroid/polaroid-small-background",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-up",
+		"path"			: "popup/scroll-up",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-up-hover",
+		"path"			: "popup/scroll-up-hover",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-up-hold",
+		"path"			: "popup/scroll-up-hold",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-down",
+		"path"			: "popup/scroll-down",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-down-hover",
+		"path"			: "popup/scroll-down-hover",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-scroll-down-hold",
+		"path"			: "popup/scroll-down-hold",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-close",
+		"path"			: "popup/popup-close",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-close-hover",
+		"path"			: "popup/popup-close-hover",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-close-hold",
+		"path"			: "popup/popup-close-hold",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-previous",
+		"path"			: "popup/popup-previous",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-previous-hover",
+		"path"			: "popup/popup-previous-hover",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-previous-hold",
+		"path"			: "popup/popup-previous-hold",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-next",
+		"path"			: "popup/popup-next",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-next-hover",
+		"path"			: "popup/popup-next-hover",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-next-hold",
+		"path"			: "popup/popup-next-hold",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-background-left",
+		"path"			: "popup/popup-background-left",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-background-center",
+		"path"			: "popup/popup-background-center",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-background-center-shadowless",
+		"path"			: "popup/popup-background-center-shadowless",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-background-right",
+		"path"			: "popup/popup-background-right",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-clickme-lt",
+		"path"			: "popup/popup-clickme-lt",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-clickme-lb",
+		"path"			: "popup/popup-clickme-lb",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-clickme-rt",
+		"path"			: "popup/popup-clickme-rt",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-clickme-rb",
+		"path"			: "popup/popup-clickme-rb",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "popup-tryit",
+		"path"			: "popup/popup-tryit",
+		"format"		: "png",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-developers-big-photo",
+		"path"			: "photos/developers/3_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-developers-small-photo",
+		"path"			: "photos/developers/3",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-hr-brand-big-photo",
+		"path"			: "photos/hr-brand/2_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-hr-brand-small-photo",
+		"path"			: "photos/hr-brand/2",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-android-big-photo",
+		"path"			: "photos/android/4_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-android-small-photo",
+		"path"			: "photos/android/4",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-bada-big-photo",
+		"path"			: "photos/bada/6_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-bada-small-photo",
+		"path"			: "photos/bada/6",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-ios-big-photo",
+		"path"			: "photos/ios/5_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-ios-small-photo",
+		"path"			: "photos/ios/5",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-java-big-photo",
+		"path"			: "photos/java/1_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-java-small-photo",
+		"path"			: "photos/java/1",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-symbian-big-photo",
+		"path"			: "photos/symbian/3_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-symbian-small-photo",
+		"path"			: "photos/symbian/3",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-webos-big-photo",
+		"path"			: "photos/webos/2_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-webos-small-photo",
+		"path"			: "photos/webos/2",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-allover-big-photo",
+		"path"			: "photos/allover/9_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-allover-small-photo",
+		"path"			: "photos/allover/9",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-partners-big-photo",
+		"path"			: "photos/partners/5_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-partners-small-photo",
+		"path"			: "photos/partners/5",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-employees-big-photo",
+		"path"			: "photos/employees/1_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-employees-small-photo",
+		"path"			: "photos/employees/1",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-rdteam-big-photo",
+		"path"			: "photos/rdteam/6_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-rdteam-small-photo",
+		"path"			: "photos/rdteam/6",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-development-big-photo",
+		"path"			: "photos/development/8_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-development-small-photo",
+		"path"			: "photos/development/8",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-sns-big-photo",
+		"path"			: "photos/sns/7_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-sns-small-photo",
+		"path"			: "photos/sns/7",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-monetization-big-photo",
+		"path"			: "photos/monetization/4_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-monetization-small-photo",
+		"path"			: "photos/monetization/4",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-galaxy-big-photo",
+		"path"			: "photos/galaxy/1_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-galaxy-small-photo",
+		"path"			: "photos/galaxy/1",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-thanks-big-photo",
+		"path"			: "photos/thanks/4_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-thanks-small-photo",
+		"path"			: "photos/thanks/4",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-jail-big-photo",
+		"path"			: "photos/jail/3_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-jail-small-photo",
+		"path"			: "photos/jail/3",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-industries-big-photo",
+		"path"			: "photos/industries/1_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-industries-small-photo",
+		"path"			: "photos/industries/1",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-countries-big-photo",
+		"path"			: "photos/countries/1_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-countries-small-photo",
+		"path"			: "photos/countries/1",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-portals-big-photo",
+		"path"			: "photos/portals/8_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-portals-small-photo",
+		"path"			: "photos/portals/8",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-billing-big-photo",
+		"path"			: "photos/billing/10_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-billing-small-photo",
+		"path"			: "photos/billing/10",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-mogames-big-photo",
+		"path"			: "photos/mogames/6_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-mogames-small-photo",
+		"path"			: "photos/mogames/6",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-flinter-big-photo",
+		"path"			: "photos/flinter/7_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-flinter-small-photo",
+		"path"			: "photos/flinter/7",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-catocal-big-photo",
+		"path"			: "photos/catocal/2_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-catocal-small-photo",
+		"path"			: "photos/catocal/2",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-smartive-big-photo",
+		"path"			: "photos/smartive/5_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-smartive-small-photo",
+		"path"			: "photos/smartive/5",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-warspear-big-photo",
+		"path"			: "photos/warspear/10_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-warspear-small-photo",
+		"path"			: "photos/warspear/10",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-pocket-big-photo",
+		"path"			: "photos/pocket/9_big",
+		"format"		: "jpg",
+		"group"			: "popup"
+	},
+	{
+		"id"			: "polaroid-pocket-small-photo",
+		"path"			: "photos/pocket/9",
+		"format"		: "jpg",
+		"group"			: "popup"
+	}
+]

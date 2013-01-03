@@ -1,0 +1,240 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta content="text/html; charset=cp1251" http-equiv="content-type" />
+		<title>Инструкция по управлению сайтом i-FREE</title>
+	</head>
+	<body>
+		<p>
+			<strong>Инструкция по управлению сайтом i-FREE.</strong><br />
+			<br />
+			В данной инструкции описываются действия :</p>
+		<ul>
+			<li>
+				по присоединению файлов,</li>
+			<li>
+				по добавлению, редактированию и удалению фотографий<sup>1</sup>.</li>
+		</ul>
+		<p>
+			<strong>I. Присоединение файлов.</strong><br />
+			&nbsp;&nbsp; &nbsp;Пусть мы хотим разместить файл installer.rar, который должен быть доступен для скачивания с фотографии &quot;NewProduct&quot;. Для этого нужно :</p>
+		<ol>
+			<li>
+				Поместить файл в директорию, которая будет доступна через web. (Например, в директорию &quot;/files/&quot;<sup>2</sup> проекта).</li>
+			<li>
+				Сформировать ссылку на размещённый файл, (&quot;/files/installer.rar&quot;),</li>
+			<li>
+				Открыть файл &quot;polaroids.json&quot;<sup>3</sup>, и найти описание нужной фотографии (в нашем примере, &quot;NewProduct&quot;),</li>
+			<li>
+				&nbsp;Установить, свойству &quot;downloadUri&quot;, ссылку полученную на шаге 2.</li>
+		</ol>
+		<p>
+			&nbsp;&nbsp; &nbsp;<br />
+			&nbsp;&nbsp;&nbsp; <u>Замечание</u>. Если файл будет распологаться не в проекте, то шаг 1 может быть пропущен.<br />
+			&nbsp;&nbsp; &nbsp;<br />
+			<strong>II. Добавление новой фотографии.</strong><br />
+			&nbsp;&nbsp; &nbsp;Описание фотографий содержится в файле &quot;polaroids.json&quot;<sup>3</sup>. Также, изменения могут затронуть файлы &quot;images.json&quot;, &quot;polaroidgroups.json&quot;.<br />
+			&nbsp;&nbsp; &nbsp;</p>
+		<ol>
+			<li>
+				&nbsp;Для добавления новой фотографии, требуется
+				<ul>
+					<li>
+						&nbsp;две картинки этой фотографии,</li>
+					<li>
+						текст-описание (опционально),</li>
+					<li>
+						ссылка для скачивания\перехода (опционально),</li>
+				</ul>
+			</li>
+			<li>
+				Для новой фотографии, создаётся запись в файле &quot;polaroids.json&quot;.
+				<ul>
+					<li>
+						обязательнами свойствами этой записи являются :
+						<ul>
+							<li>
+								идентификатор новой фотографии - свойство &quot;id&quot; (уникальный среди всех фотографий) (нужен также, для связи с картиноками данной фотографии, см пункт II.4) .</li>
+							<li>
+								тип фотографии - свойство &quot;singleScreenType&quot; (от него зависит отображение увеличенной версии фотографии). Возможные значения, перечислены в таблице 1 .</li>
+						</ul>
+					</li>
+					<li>
+						дополнительными свойствами являются :
+						<ul>
+							<li>
+								текст описания (нужен, если тип фотографии - &quot;single&quot;). Свойство &quot;text&quot;.</li>
+							<li>
+								ссылка на скачивание\переход (для типа &quot;tryit&quot;). Свойство &quot;downloadUri&quot;.</li>
+							<li>
+								подпись под картинкой фотографии. Свойство &quot;caption&quot;.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Идентификатор новой фотографии нужно внести в одну из групп. Файл &quot;polaroidgroups.json&quot;.</li>
+			<li>
+				Связать картинки, новой фотографии с фотографией.
+				<ul>
+					<li>
+						подготовить по две картинки для каждого разрешения.</li>
+					<li>
+						для каждого из разрешений, в папке &quot;images/&lt;имя разрешения&gt;/photos&quot; создать папку с названием, совпадающим с идентификатором новой фотографии. Имена разрешений, и соответствующие им разрешения привидены в таблице 2.</li>
+					<li>
+						в файле &quot;images.json&quot; добавить записи о картинках фотографии. Записи следующего вида:</li>
+				</ul>
+			</li>
+		</ol>
+		<blockquote>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;id&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;polaroid-&lt;идентификатор новой фотографии&gt;-big-photo&quot;,</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;path&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;photos/&lt;идентификатор новой фотографии&gt;/&lt;имя большой картинки&gt;&quot;,</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;group&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;popup&quot;</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;и</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;id&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;polaroid-&lt;идентификатор новой фотографии&gt;-small-photo&quot;,</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;path&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;photos/&lt;идентификатор новой фотографии&gt;/&lt;имя малой картинки фотографии&gt;&quot;,</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&quot;group&quot;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;: &quot;popup&quot;</code></p>
+			<p>
+				<code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</code></p>
+		</blockquote>
+		<p>
+			<br />
+			<strong>III. Редактирование фотографии.</strong><br />
+			&nbsp;&nbsp; &nbsp;Для редактирования фотографии нужно изменить её свойства, которые были описаны в п. II.<br />
+			&nbsp;&nbsp; &nbsp;<br />
+			<strong>IV. Удаление фотографий.</strong></p>
+			<ol>
+				<li>
+					Для скрытия какой-либо фотографии, нужно удалить её идентификатор из её группы, в файле &quot;polaroidgroups.json&quot;.</li>
+				<li>
+					Для полного удаления фотографии, нужно:
+					<ul>
+						<li>
+							удалить идентификатор фотографии из её группы,</li>
+						<li>
+							удалить запись о фотографии в файле &quot;polaroids.json&quot;,</li>
+						<li>
+							удалить записи о картинках фотографии из файла &quot;images.json&quot;,</li>
+						<li>
+							удалить картинки фотографии.</li>
+					</ul>
+				</li>
+			</ol>
+			<strong>Приложения.</strong>
+		</p>
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 700px;">
+			<caption>
+				Таблица 1. Типы фотографий.</caption>
+			<thead>
+				<tr>
+					<th scope="row">
+						Тип фотографии</th>
+					<th scope="col">
+						Описание типа</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">
+						&quot;single&quot;</th>
+					<td style="text-align: center;">
+						Используется для фотографий с текстом-описанием</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						&quot;tryit&quot;</th>
+					<td style="text-align: center;">
+						Используется для фотографий с ссылками перехода\скачивания</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						&quot;comingsoon&quot;</th>
+					<td style="text-align: center;">
+						Используется для фотографий, в описании которых - &quot;The product is coming&quot;</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<br />
+			&nbsp;</p>
+		<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+			<caption>
+				Таблица 2. Папки разрешений картинок.</caption>
+			<thead>
+				<tr>
+					<th scope="row">
+						Имя разрешения</th>
+					<th scope="col">
+						Значение разрешения</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">
+						1</th>
+					<td style="text-align: center;">
+						1600x900</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						0.89</th>
+					<td style="text-align: center;">
+						1280x800</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						0.67</th>
+					<td style="text-align: center;">
+						1024x600</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						0.53</th>
+					<td style="text-align: center;">
+						800x480</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						0.36</th>
+					<td style="text-align: center;">
+						480x320</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+		<p>
+			<strong>Примечания.</strong></p>
+		<ol>
+			<li>
+				В данной инструкции, под фотографией будет пониматься объект, объединяющий в себе :
+				<ul>
+					<li>
+						2 картинки,</li>
+					<li>
+						подпись для картинки,</li>
+					<li>
+						возможно текст описания,</li>
+					<li>
+						возможно ссылку для перехода\скачивания.</li>
+				</ul>
+			</li>
+			<li>
+				Все пути в инструкции начинаются с корневой директории проекта. Путь &quot;/&quot; означает корень проекта.</li>
+			<li>
+				Все файлы с расширением &quot;.json&quot; расположены в директории &quot;/resources&quot;.</li>
+		</ol>
+	</body>
+</html>
