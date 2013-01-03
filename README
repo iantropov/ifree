@@ -1,0 +1,12 @@
+A iFree application-site with a lot a animation.
+
+Features:
+* support of many mobile and desktop clients
+* support of some resolutions - and set of graphics for it
+* asynchronous loading of a animations and graphics
+* flexible design based on JSON configs, that allows to made needed changes by editing JSON configs
+* extandable design of application for some directions
+
+Additional instruction in instructions.html
+
+Demo available at [http://ifree.issart.com](http://ifree.issart.com)
